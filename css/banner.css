@@ -1,0 +1,30 @@
+header{
+	position:fixed;
+	width:100%;
+	top:0px;
+	display:inline-flex;
+	flex-wrap:wrap;
+    justify-content: space-around;
+	/*FIXME: CHANGE THE BACKGROUND COLOR*/
+	background-color:yellow;
+
+}
+
+.banner nav{
+	justify-content: right;
+}
+.main-menu ul{
+	list-style-type:none;
+}
+
+a.main-menu{
+	text-decoration:none;
+}
+.main-menu ul li
+{
+	display:inline-block;
+	padding:10px;
+}
+
+
+

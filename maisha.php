@@ -1,9 +1,11 @@
-<?php include "inc/html-top.inc";?>
+<?php 
+$currentPage="Maisha Idris | Odd Student Out";
+include "inc/html-top.inc";?>
 
 <main>
 	<a href="http://midris2.digitalscholar.rochester.edu/csc174/lab01/www/index.php">
 		<h2>Maisha Idris</h2>
-		<img src="images/maisha.jpg" alt="Picture of me">
+		<img src="images/maisha.jpg" alt="Picture of Maisha">
 	</a>
 
 	<h3>Hometown</h3>
@@ -14,13 +16,32 @@
 
 	<h3>Extracurricular Activities</h3>
 	<p>I work part time as a Technical Assistant at the University of Rochester School of Nursing, where I provide support in IT, Facilities, and Educational Media. Workshop leading/TAing was also a source of income in the past, though I’ve let that go for my last semester of college. Additionally, I am a Kearns Scholar and a Hajim Scholar, two academic distinctions I’m proud of. Extracurricular-wise, I recently finished my term as the Public Relations Chair of WiC (Women in Computing), a club I was (and still am!) extremely dedicated to. I’ve been fortunate to do so much in WiC, including alumni video interviews in conjunction with the Office of Admissions, merchandise production, a successful #SupportWomenInCS campaign, and a burgeoning PhD-Undergraduate Computer Science program! Along with my work in WiC, I am a co-founder of 1st Gen Society, the home for the first-generation college students at UR.</p>
-
-	<footer>
-	©  CSC 174 - Advanced Front-end Web Design and Development
-	</footer>
-
-
-
 </main>
+
+<aside>
+	<section class="title">
+	<h3>Quick Impression</h3>
+	<ul>
+		<li>Majoring in Computer Science with a minor in Political Science</li>
+		<li>Kearns & Hajim Scholar</li>
+		<li>Senior at the University of Rochester</li>
+	</ul>
+    </section>
+    
+	<section class="fun-facts">
+	<h3>Fun Facts</h3>
+	<ul>
+		<li>I enjoy reading novels, self-help books, and non-fiction books.</li>
+		<li>I also enjoy cooking, especially Bangladeshi foods.</li>
+		<li>I always enjoy meeting and getting to know new people.</li>
+	</ul>
+    </section>
+</aside>
+
+<footer>
+	©  CSC 174 - Advanced Front-end Web Design and Development
+</footer>
+
+</div>
 </body>
 </html>

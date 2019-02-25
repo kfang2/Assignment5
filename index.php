@@ -1,7 +1,6 @@
 <?php $style = 'css/home.css'; ?>
+<?php $currentPage="Home | Odd Student Out";?>
 <?php include "inc/html-top.inc";?>
-<?php include "inc/nav.inc";?>
-
 
 <main>
 	<div class="slider">
