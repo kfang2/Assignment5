@@ -1,14 +1,13 @@
+<?php $style ='style'; ?>
 <?php 
 $currentPage="Genessis Galindo | Odd Student Out";
 include "inc/html-top.inc";?>
 
 <main>
-	<a href="http://www.csc174.org/assignment02/atlantis/genessis.php">
 			<h2>Genessis Galindo</h2>
 			<img src="images/genessis.jpg" alt="Genessis Galindo">
-	</a>
 
-<h3>Homwtown</h3>
+<h3>Hometown</h3>
 	<p>I am a native to Los Angeles, California. I do not really know why I thought coming to school in New York would be a good idea but it somehow ended up happening because I think I thought I could handle the snow. I am now fed up with the snow but I do love the University of Rochester and do believe that I ended up where I was meant to. I originally came to UR, I planned to double major in Business and Computer Science and minor in Political Science but after taking a few classes and finding out what I really enjoyed, I decided to major in Business and move Computer Science to a minor and pick up a Spanish minor.</p>
 
 <h3>Academic & Career</h3>
@@ -19,21 +18,21 @@ include "inc/html-top.inc";?>
 </main>
 
 <aside>
-	<section class="title">
+	<section class="titles genessis">
 	<h3>Quick Impression</h3>
 	<ul>
-		<li>Wannabe Master of Web Development</li>
-		<li>Ninja-level Event Planning Skills</li>
-		<li>Undergraduate Student at University of Rochester</li>
+		<li>❤ Wannabe Master of Web Development</li>
+		<li>❤ Ninja-level Event Planning Skills</li>
+		<li>❤ Undergraduate Student at University of Rochester</li>
 	</ul>
     </section>
 
-	<section class="fun-facts">
+	<section class="fun-facts genessis">
 	<h3>Fun Facts</h3>
 	<ul>
-		<li>My first ever job at UR was at the Common Market.</li>
-		<li>I now work as a Front Desk/Administrative Assistant.</li>
-		<li>I also am currently working on a startup called BarterOut.</li>
+		<li>❤ My first ever job at UR was at the Common Market.</li>
+		<li>❤ I now work as a Front Desk/Administrative Assistant.</li>
+		<li>❤ I also am currently working on a startup called BarterOut.</li>
 	</ul>
     </section>
 </aside>
@@ -42,6 +41,8 @@ include "inc/html-top.inc";?>
 
 <footer>
 	©  CSC 174 - Advanced Front-end Web Design and Development
+	<a href="http://www.csc174.org/assignment02/atlantis/genessis.php">Read More About Genessis Galindo</a>
 </footer>
+<?php include "inc/scripts.inc";?>
 </body>
 </html>

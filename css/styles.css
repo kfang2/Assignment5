@@ -7,20 +7,30 @@
 	width:90%;
 	max-width:960px;
 	display: grid;
-	grid-template-columns: : 2fr 1fr;
+	grid-template-columns: 2fr 1fr;
 }
 
 main{
 	grid-column: 1/2;
+	margin-right:15px;
 }
 aside{
-	margin-top:100px;
+	margin-top:70px;
 	grid-column: 2/3;
+	border-left:15px;
+	position:relative;
 }
 
-/*FIXME: THE GRID DOES NOT WORK WELL*/;
-h2{
-	grid-column: 1/3;
+section.titles{
+	margin-left:20px;
+	position:absolute;
+}
+
+
+section.fun-facts{
+	margin-top:1150px;
+	margin-left:20px;
+	position:absolute;
 }
 
 footer{
@@ -34,26 +44,42 @@ footer{
 *******************/ 
 p{
 	font-family: 'Merriweather', serif;
-	line-height: 1.5em;
+	line-height: 1.8em;
 	font-size:18px;
 }
 
 h2{
     
 	color:#74b49b;
+	font-family: 'Josefin Slab', serif;
 	border-bottom: 2px dotted;
 	font-weight: bold;
-
+	font-size:30px; 
 }
 
 h3{
 	color:#74b49b;
+	font-family: 'Josefin Slab', serif;
+	font-size:25px;
+	background-color:#f4f9f4;
 }
 
 aside h3{
 	color: #acc6aa;
-	background-color:#f4f9f4;
+	font-family: 'Love Ya Like A Sister', cursive;
+	background-color:white;
+	margin-left:30px;
 }
+
+aside ul{
+	list-style-type: none;
+	font-size: 18px;
+	line-height:2em;
+	font-weight:bold;
+	font-family: 'Josefin Slab', serif;
+    color:#5c8d89
+}
+
 a{
 	text-decoration: none;
 	color: #5c8d89;
@@ -66,4 +92,42 @@ footer{
 	background-color:#f4f9f4;
 	color:#5c8d89;
 	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+footer a{
+	color:#acc6aa;
+}
+
+a:hover{
+	color:#ffe3b0;
+}
+/******************
+** MODULE 
+*******************/ 
+section.titles{
+	border:dotted 2px #d9d9d9;
+	padding:9px;
+}
+
+section.titles.akshay, section.titles.genessis{
+	margin-left:10px;
+	padding-left:0px;
+	padding-right:30px;
+}
+
+section.fun-facts{
+	border:dotted 2px #d9d9d9;
+	padding-right:6px;
+}
+
+section.fun-facts.akshay{
+	margin-top:1250px;
+	padding-right:10px;
+	padding-left:0px;
+}
+
+section.fun-facts.genessis{
+	margin-top:1200px;
+	padding-left:0px;
+	padding-right:12px;
 }

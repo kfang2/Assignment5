@@ -1,12 +1,12 @@
+<?php $style ='style'; ?>
 <?php 
 $currentPage="Akshay Desai | Odd Student Out";
 include "inc/html-top.inc";?>
 
 <main>
-	<a href="http://www.csc174.org/assignment02/hell/akshay.php">
+
 	<h2>Akshay Desai</h2>
 		<img src="images/akshay.jpg" alt="a picture of Akshay">
-	</a>
 
 <h3>Hometown</h3>
 	 <p>I am originally from Chicago, IL and moved to Philadelphia, PA during my freshman year of high school. There, I took my first computer science class that piqued my interest in the subject. This interest however developed late in high school, so I started school at the University of Rochester actually as an international relations major. </p>
@@ -17,21 +17,21 @@ include "inc/html-top.inc";?>
 </main>
 
 <aside>
-	<section class="title">
+	<section class="titles akshay">
 	<h3>Quick Impression</h3>
 	<ul>
-		<li>Resident Advisor</li>
-		<li>Incoming Software Engineer</li>
-		<li>CS Student</li>
+		<li>❤ Resident Advisor</li>
+		<li>❤ Incoming Software Engineer</li>
+		<li>❤ CS Student</li>
 	</ul>
     </section>
-    
-	<section class="fun-facts">
+
+	<section class="fun-facts akshay">
 	<h3>Fun Facts</h3>
 	<ul>
-		<li>This Spring, I’ll be graduating and moving out to Seattle shortly after.</li>
-		<li>I look forward to exploring the great outdoors by hiking and kayaking.</li>
-		<li>I have also recently been interested in the art of cooking and watercolor painting.</li>
+		<li>❤ This Spring, I’ll be graduating and moving out to Seattle shortly after.</li>
+		<li>❤ I look forward to exploring the great outdoors by hiking and kayaking.</li>
+		<li>❤ I have also recently been interested in the art of cooking and watercolor painting.</li>
 	</ul>
     </section>
 </aside>
@@ -40,7 +40,8 @@ include "inc/html-top.inc";?>
 
 <footer>
 	©  CSC 174 - Advanced Front-end Web Design and Development
+	<a href="http://www.csc174.org/assignment02/hell/akshay.php">Read More About Akshay Desai</a>
 </footer>
-
+<?php include "inc/scripts.inc";?>
 </body>
 </html>
