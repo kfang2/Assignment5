@@ -1,7 +1,60 @@
+/******************
+** LAYOUT 
+*******************/ 
 .container{
-	display:grid;
-	grid-template-columns: 2fr 1fr;
+	margin: 0 auto;
+	margin-top: 100px;
+	width:90%;
+	max-width:960px;
 }
+
+/******************
+** BASE
+*******************/ 
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color:#ffe3b0;
+}
+
 main{
-	grid-column: 1/3;
+	display: flex;
+	flex-wrap:wrap;
+}
+
+ul{
+	list-style-type: none;
+	font-family: 'Josefin Slab', serif;
+	line-height:1.8em;
+}
+
+
+/******************
+** MODULE 
+*******************/ 
+section.common{
+	margin-right:30px;
+}
+.common h2{
+	color:#74b49b;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+	font-size:20px;
+	margin-left:30px;
+}
+.odd h2{
+	color:#f9989f;
+	font-family: 'Josefin Slab', serif;
+	font-weight: bold;
+	font-size:20px; 
+	margin-left:10px;
+	margin-top:30px;
+}
+.common ul li{
+	color:#5c8d89;
+}
+.odd ul li{
+	color:#c06c84;
 }

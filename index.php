@@ -9,8 +9,8 @@
 </section>
 
 <main>
-<section>
-<h2>East Coast: Marshia&Akashay</h2>
+<section class="common">
+<h2>East Coast: Marshia & Akashay</h2>
 <ul>
 	<li>Seniors at the University of Rochester</li>
 	<li>Majoring in Computer Science</li>
@@ -18,10 +18,8 @@
 </ul>
 </section>
 
-<section>
-<h2>
-	West Coast: Genessis	
-</h2>
+<section class="odd">
+<h2>West Coast: Genessis</h2>
 <ul>
 	<li>Major in Business</li>
 	<li>Sophomore in UofR</li>

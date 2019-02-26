@@ -18,8 +18,11 @@ header.banner{
 	padding:10px;
 }
 
-
-
+footer{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-around;
+}
 /******************
 ** BASE 
 *******************/ 
@@ -38,6 +41,18 @@ nav{
 	font-size: 20px;
 }
 
+footer{
+	width:100%;
+	padding:12px;
+	text-align: center;
+	background-color:#f4f9f4;
+	color:#5c8d89;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+footer a{
+	color:#acc6aa;
+}
 /******************
 ** MODULE 
 *******************/ 

@@ -33,12 +33,6 @@ section.fun-facts{
 	position:absolute;
 }
 
-footer{
-	display:flex;
-	flex-wrap:wrap;
-	justify-content: space-around;
-}
-
 /******************
 ** BASE 
 *******************/ 
@@ -48,8 +42,7 @@ p{
 	font-size:18px;
 }
 
-h2{
-    
+h2{  
 	color:#74b49b;
 	font-family: 'Josefin Slab', serif;
 	border-bottom: 2px dotted;
@@ -85,19 +78,6 @@ a{
 	color: #5c8d89;
 }
 
-footer{
-	width:100%;
-	padding:12px;
-	text-align: center;
-	background-color:#f4f9f4;
-	color:#5c8d89;
-	font-family: 'Love Ya Like A Sister', cursive;
-}
-
-footer a{
-	color:#acc6aa;
-}
-
 a:hover{
 	color:#ffe3b0;
 }
@@ -130,4 +110,21 @@ section.fun-facts.genessis{
 	margin-top:1200px;
 	padding-left:0px;
 	padding-right:12px;
+}
+
+h3.genessis{
+	color:#f9989f;
+	background-color:#FFF6F6;
+}
+
+aside h3.genessis{
+	background-color:white;
+}
+
+h2.genessis{
+	color:#f9989f
+}
+
+.genessis ul{
+	color:#c06c84;
 }
