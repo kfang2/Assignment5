@@ -3,10 +3,8 @@ $currentPage="Maisha Idris | Odd Student Out";
 include "inc/html-top.inc";?>
 
 <main>
-	<a href="http://midris2.digitalscholar.rochester.edu/csc174/lab01/www/index.php">
-		<h2>Maisha Idris</h2>
-		<img src="images/maisha.jpg" alt="Picture of Maisha">
-	</a>
+	<h2>Maisha Idris</h2>
+	<img src="images/maisha.jpg" alt="Picture of Maisha">
 
 	<h3>Hometown</h3>
 	<p>I’m the first in my family to graduate high school (and subsequently the first in my family to graduate college), so it’s a weird shock to be earning a degree in a field I’ve felt (and still sometimes feel) inadequate in. It's no secret that there are fewer women than men in computing, though I've learned of and found a community for myself. It’s scary to imagine becoming a full-fledged adult. Being at UR and away from my home in Queens, NY has definitely helped me gain the necessary knowledge and independence. I’m ready, but hesitant, for what’s ahead.</p>
@@ -41,6 +39,7 @@ include "inc/html-top.inc";?>
 
 <footer>
 	©  CSC 174 - Advanced Front-end Web Design and Development
+	<a href="http://midris2.digitalscholar.rochester.edu/csc174/lab01/www/index.php">Read More About Maisha Idris</a>
 </footer>
 
 </body>
