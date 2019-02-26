@@ -27,7 +27,7 @@ include "inc/html-top.inc";?>
 		<li>Senior at the University of Rochester</li>
 	</ul>
     </section>
-    
+
 	<section class="fun-facts">
 	<h3>Fun Facts</h3>
 	<ul>
@@ -37,11 +37,11 @@ include "inc/html-top.inc";?>
 	</ul>
     </section>
 </aside>
+</div>
 
 <footer>
 	©  CSC 174 - Advanced Front-end Web Design and Development
 </footer>
 
-</div>
 </body>
 </html>

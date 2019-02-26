@@ -1,24 +1,20 @@
+/******************
+** LAYOUT 
+*******************/ 
 header{
 	position:fixed;
 	width:100%;
 	top:0px;
+	padding:5px;
 	display:inline-flex;
 	flex-wrap:wrap;
     justify-content: space-around;
 	/*FIXME: CHANGE THE BACKGROUND COLOR*/
-	background-color:yellow;
+	background-color:#f4f9f4;
 
 }
-
 .banner nav{
 	justify-content: right;
-}
-.main-menu ul{
-	list-style-type:none;
-}
-
-a.main-menu{
-	text-decoration:none;
 }
 .main-menu ul li
 {
@@ -28,3 +24,28 @@ a.main-menu{
 
 
 
+/******************
+** BASE 
+*******************/ 
+h1, li a{
+	color:#5c8d89;
+	font-family: 'Love Ya Like A Sister', cursive;
+}
+
+h1{
+	font-size: 40px;
+}
+
+
+
+
+/******************
+** MODULE 
+*******************/ 
+.main-menu ul{
+	list-style-type:none;
+}
+
+a.main-menu{
+	text-decoration:none;
+}
