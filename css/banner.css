@@ -9,7 +9,6 @@
 ** LAYOUT 
 *******************/ 
 header.banner{
-	position:fixed;
 	width:100%;
 	top:0px;
 	display:inline-flex;
