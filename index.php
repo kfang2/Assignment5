@@ -25,7 +25,11 @@
 	<li>Sophomore in UofR</li>
 </ul>
 </section>
+<button>
+<a href="maisha.php">Let's Start</a>
+</button>
 </main>
+
 </div>
 
 <footer>

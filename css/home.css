@@ -30,6 +30,40 @@ ul{
 	line-height:1.8em;
 }
 
+button{
+	margin:20px 0px 20px 120px;
+    border: dotted 2px #d9d9d9;
+    border-radius:20px;
+    padding:20px 40px 20px 40px;
+    background-color:#f0ece2;
+    text-decoration: none;
+    font-family: 'Love Ya Like A Sister', cursive;
+    font-size: 25px;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+button a{
+	text-decoration: none;
+	color:#74b49b;
+}
+button:hover,
+button:focus {
+    background: #ffc1c8;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -4px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
 
 /******************
 ** MODULE 
