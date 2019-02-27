@@ -5,6 +5,7 @@
 	<title><?php echo $currentPage; ?></title>
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/banner.css">
+	<link rel="stylesheet" href="sss/sss.css">
 	<?php
 	if($style == "home"){
 		echo '<link rel="stylesheet" href="css/home.css">';	
@@ -13,7 +14,7 @@
 		echo '<link rel="stylesheet" href="css/styles.css">';	
 	}
     ?>
-	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Love+Ya+Like+A+Sister|Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
 </head>
 <body>
 	<header class="banner">

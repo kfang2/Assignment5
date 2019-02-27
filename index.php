@@ -3,9 +3,10 @@
 <?php include "inc/html-top.inc";?>
 
 <section class="slider">
-			<img class="flexible" src="images/philly.jpg" alt="Philedelphia">
-			<img class="flexible" src="images/ny.jpg" alt="New Yorks">
-			<img class="flexible" src="images/ca.jpg" alt="California">
+			<img class="flexible" src="images/los-angeles.jpg" alt="los-angeles">
+			<img class="flexible" src="images/philadelphia.jpg" alt="philedelphia">
+			<img class="flexible" src="images/queens.jpg" alt="Queens">
+			<img class="flexible" src="images/slide-guess.jpg" alt="slide-guess">
 </section>
 
 <main>
@@ -25,9 +26,7 @@
 	<li>Sophomore in UofR</li>
 </ul>
 </section>
-<button>
-<a href="maisha.php">Let's Start</a>
-</button>
+<button onclick="window.location.href='maisha.php'">Let's Start</button>
 </main>
 
 </div>

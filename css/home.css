@@ -12,6 +12,7 @@
 	margin-top: 100px;
 	width:90%;
 	max-width:960px;
+	position: relative;
 }
 
 /******************
@@ -52,10 +53,6 @@ button{
     -moz-appearance: none;
 }
 
-button a{
-	text-decoration: none;
-	color:#74b49b;
-}
 button:hover,
 button:focus {
     background: #ffc1c8;
@@ -97,4 +94,7 @@ section.common{
 }
 .odd ul li{
 	color:#c06c84;
+}
+.slider {
+	text-align: center;
 }
