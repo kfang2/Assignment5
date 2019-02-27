@@ -1,3 +1,10 @@
+/*CSS organization techniques: SMACSS
+ *Outline:
+  - Layout
+  - Base
+  - Module
+  - State
+ */
 /******************
 ** LAYOUT 
 *******************/ 
@@ -62,4 +69,10 @@ footer a{
 
 a.main-menu{
 	text-decoration:none;
+}
+/******************
+** STATE
+*******************/ 
+.is-current {
+	border-bottom: #5c8d89 solid 3px ;
 }
