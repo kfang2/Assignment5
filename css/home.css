@@ -96,4 +96,6 @@ section.common{
 }
 .slider {
 	text-align: center;
+	margin-top:0px;
+	margin-bottom:20px;
 }
