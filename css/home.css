@@ -9,8 +9,6 @@
 *******************/ 
 .container{
 	margin: 0 auto;
-	width:90%;
-	max-width:960px;
 	position: relative;
 }
 
@@ -28,6 +26,7 @@ a:hover{
 main{
 	display: flex;
 	flex-wrap:wrap;
+	margin-left: 135px;
 }
 
 ul{
@@ -94,8 +93,12 @@ section.common{
 .odd ul li{
 	color:#c06c84;
 }
+
 .slider {
-	text-align: center;
 	margin-top:0px;
-	margin-bottom:20px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
+

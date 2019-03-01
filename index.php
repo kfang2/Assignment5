@@ -3,10 +3,10 @@
 <?php include "inc/html-top.inc";?>
 
 <section class="slider">
-			<img class="flexible" src="images/los-angeles.jpg" alt="los-angeles">
-			<img class="flexible" src="images/philadelphia.jpg" alt="philedelphia">
-			<img class="flexible" src="images/queens.jpg" alt="Queens">
-			<img class="flexible" src="images/slide-guess.jpg" alt="slide-guess">
+			<img class="flexible" src="images/los-angeles.jpg" alt="Image 1">
+			<img class="flexible" src="images/philadelphia.jpg" alt="Image 2">
+			<img class="flexible" src="images/queens.jpg" alt="Image 3">
+			<img class="flexible" src="images/slide-guess.jpg" alt="Image 4">
 </section>
 
 <main>
