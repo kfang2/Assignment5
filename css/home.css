@@ -26,7 +26,7 @@ a:hover{
 main{
 	display: flex;
 	flex-wrap:wrap;
-	margin-left: 135px;
+	margin-left: 140px;
 }
 
 ul{
@@ -36,7 +36,7 @@ ul{
 }
 
 button{
-	margin:20px 0px 20px 400px;
+	margin:20px 0px 20px 380px;
     border: dotted 2px #d9d9d9;
     border-radius:20px;
     padding:20px 40px 20px 40px;
@@ -84,7 +84,7 @@ section.common{
 	font-family: 'Josefin Slab', serif;
 	font-weight: bold;
 	font-size:20px; 
-	margin-left:10px;
+	margin-left:20px;
 	margin-top:30px;
 }
 .common ul li{
