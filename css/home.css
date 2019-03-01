@@ -26,7 +26,8 @@ a:hover{
 main{
 	display: flex;
 	flex-wrap:wrap;
-	margin-left: 140px;
+	justify-content: space-between;
+	margin-left:100px;
 }
 
 ul{
@@ -36,7 +37,7 @@ ul{
 }
 
 button{
-	margin:20px 0px 20px 380px;
+	margin:20px 100px 20px 0px;
     border: dotted 2px #d9d9d9;
     border-radius:20px;
     padding:20px 40px 20px 40px;
@@ -69,8 +70,8 @@ button:active {
 /******************
 ** MODULE 
 *******************/ 
-section.common{
-	margin-right:30px;
+section.odd{
+	margin-right:400px;
 }
 .common h2{
 	color:#74b49b;
